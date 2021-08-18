@@ -1,0 +1,17 @@
+.card {
+  @apply border border-gray-300;
+}
+.card-header,
+.card-body,
+.card-footer {
+  @apply p-4 md:p-8;
+}
+.card-header {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.card-img-top {
+  @apply object-cover;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}

@@ -1,0 +1,15 @@
+.breadcrumb {
+	@apply flex flex-wrap list-none;
+}
+.breadcrumb-item {
+	& + .breadcrumb-item:before {
+		content: "/";
+		@apply px-1.5 text-dark font-normal;
+	}
+	&.active {
+		@apply text-danger font-bold;
+	}
+	a {
+		@apply hover:underline;
+	}
+}

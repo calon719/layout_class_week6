@@ -1,0 +1,14 @@
+.offcanvas-body {
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    @apply bg-secondary;
+  }
+  &::-webkit-scrollbar-thumb {
+    @apply bg-white;
+  }
+  &::-webkit-scrollbar-button {
+    @apply bg-dark;
+  }
+}

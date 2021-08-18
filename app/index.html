@@ -1,0 +1,236 @@
+---
+title: 六角藝術展覽購票網
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main class="index">
+  <!-- banner -->
+  <div class="index-banner bg-fuild flex items-end h-120">
+    <div class="container">
+      <div class="content text-white mb-20 md:mb-32 lg:mb-40">
+        <h3 class="text-4xl font-bold mb-4">
+          台北當代藝術展
+          <br>
+          <span class="text-xl">01 JUN - 31 OCT</span>
+        </h3>
+        <div class="flex">
+          <a href="#" class="btn bg-secondary text-white w-full md:w-auto md:auto md:px-12 mr-4 md:mr-2">購買票券</a>
+          <a href="#"
+            class="btn bg-transparent border-white w-full md:w-auto  md:px-12 hover:opacity-100 hover:bg-white hover:text-dark">詳細資訊</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- top nav -->
+  <nav class="top-navbar navbar border-b border-gray-600 bg-white sticky">
+    <div class="container justify-center">
+      <ul class="navbar-nav py-3 whitespace-nowrap overflow-x-scroll scrollbar-none">
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">音樂</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">戲劇</a></li>
+        <li class="mr-5"><a href="./design.html" class="nav-link hover:border-secondary">設計</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">藝術</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">美食</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">旅遊</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">電影</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">親子</a></li>
+        <li><a href="#" class="nav-link hover:border-secondary">期間限定</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- hot exhibition -->
+  <section class="hotExhibition pt-5 md:pt-10 lg:pt-15 pb-6 md:pb-12 lg:pb-15">
+    <div class="container">
+      <h3 class="font-bold text-4xl mb-2 md:mb-6">熱門特展</h3>
+      <ul>
+        <li class="card md:flex bg-gray-300 p-4 md:p-0 mb-4 md:mb-5">
+          <div class="row">
+            <div class="col-12 md:col-5">
+              <img class="img-fuild" src="./assets/images/exhibition1.jpg" alt="exhibition_image">
+            </div>
+            <div class="col-12 md:col-7 flex flex-col md:flex-row">
+              <div class="card-header flex flex-wrap items-center px-0 pt-2 pb-1 md:hidden">
+                <h4 class="text-2xl font-bold">2020 台味設計展</h4>
+                <a href="#" class="block hover:opacity-60 text-xl ml-2.5"><i class="fab fa-facebook"></i></a>
+                <span class="ml-auto">01 JUN — 31 OCT</span>
+              </div>
+              <div class="card-body p-0 md:py-10 md:mr-4 lg:mr-32 flex flex-col h-full">
+                <div class="card-text flex-grow">
+                  <div class="hidden md:flex">
+                    <h4 class="text-2xl font-bold md:inline">2020 台味設計展</h4>
+                    <div class="ml-auto flex items-center lg:hidden">
+                      <a href="#" class="block hover:opacity-60 text-xl ml-2.5"><i class="fab fa-facebook"></i></a>
+                      <span class="ml-4">01 JUN — 31 OCT</span>
+                    </div>
+                  </div>
+                  <p class="text-2xl mb-2">$350
+                  <p class="font-medium">
+                    設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+                  </p>
+                </div>
+                <div class="btn-group mt-10">
+                  <a href="./index_exhibition1.html" class="btn bg-primary text-white px-4">購買票券</a>
+                  <a href="#"
+                    class="btn border-primary text-primary px-4 hover:bg-primary hover:text-white hover:opacity-100">收藏展覽</a>
+                </div>
+              </div>
+              <div class="card-footer py-10 hidden lg:flex flex-col justify-between">
+                <span class="text-2xl font-medium pr-6">
+                  01 <br>JUN <br> | <br> 31 <br> OCT
+                </span>
+                <a href="#" class="hover:opacity-60 text-xl md:block"><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="card md:flex bg-gray-300 p-4 md:p-0 mb-4 md:mb-5">
+          <div class="row">
+            <div class="col-12 md:col-5">
+              <img class="img-fuild" src="./assets/images/exhibition2.jpg" alt="exhibition_image">
+            </div>
+            <div class="col-12 md:col-7 flex flex-col md:flex-row">
+              <div class="card-header flex flex-wrap items-center px-0 pt-2 pb-1 md:hidden">
+                <h4 class="text-2xl font-bold">No.22 線上設計展</h4>
+                <a href="#" class="block hover:opacity-60 text-xl ml-2.5"><i class="fab fa-facebook"></i></a>
+                <span class="ml-auto">01 JUN — 31 OCT</span>
+              </div>
+              <div class="card-body p-0 md:py-10 md:mr-4 lg:mr-32 flex flex-col h-full">
+                <div class="card-text flex-grow">
+                  <div class="hidden md:flex">
+                    <h4 class="text-2xl font-bold md:inline">2020 台味設計展</h4>
+                    <div class="ml-auto flex items-center lg:hidden">
+                      <a href="#" class="block hover:opacity-60 text-xl ml-2.5"><i class="fab fa-facebook"></i></a>
+                      <span class="ml-4">01 JUN — 31 OCT</span>
+                    </div>
+                  </div>
+                  <p class="text-2xl mb-2">$350
+                  <p class="font-medium">
+                    這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。
+                  </p>
+                </div>
+                <div class="btn-group mt-10">
+                  <a href="./index_exhibition1.html" class="btn bg-primary text-white px-4">購買票券</a>
+                  <a href="#"
+                    class="btn border-primary text-primary px-4 hover:bg-primary hover:text-white hover:opacity-100">收藏展覽</a>
+                </div>
+              </div>
+              <div class="card-footer py-10 hidden lg:flex flex-col justify-between">
+                <span class="text-2xl font-medium pr-6">
+                  01 <br>JUN <br> | <br> 31 <br> OCT
+                </span>
+                <a href="#" class="hover:opacity-60 text-xl md:block"><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="card md:flex bg-gray-300 p-4 md:p-0">
+          <div class="row">
+            <div class="col-12 md:col-5">
+              <img class="img-fuild" src="./assets/images/exhibition3.jpg" alt="exhibition_image">
+            </div>
+            <div class="col-12 md:col-7 flex flex-col md:flex-row">
+              <div class="card-header flex flex-wrap items-center px-0 pt-2 pb-1 md:hidden">
+                <h4 class="text-2xl font-bold">2020 台味設計展</h4>
+                <a href="#" class="block hover:opacity-60 text-xl ml-2.5"><i class="fab fa-facebook"></i></a>
+                <span class="ml-auto">01 JUN — 31 OCT</span>
+              </div>
+              <div class="card-body p-0 md:py-10 md:mr-4 lg:mr-32 flex flex-col h-full">
+                <div class="card-text flex-grow">
+                  <div class="hidden md:flex">
+                    <h4 class="text-2xl font-bold md:inline">2020 台味設計展</h4>
+                    <div class="ml-auto flex items-center lg:hidden">
+                      <a href="#" class="block hover:opacity-60 text-xl ml-2.5"><i class="fab fa-facebook"></i></a>
+                      <span class="ml-4">01 JUN — 31 OCT</span>
+                    </div>
+                  </div>
+                  <p class="text-2xl mb-2">$350
+                  <p class="font-medium">
+                    設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+                  </p>
+                </div>
+                <div class="btn-group mt-10">
+                  <a href="./index_exhibition1.html" class="btn bg-primary text-white px-4">購買票券</a>
+                  <a href="#"
+                    class="btn border-primary text-primary px-4 hover:bg-primary hover:text-white hover:opacity-100">收藏展覽</a>
+                </div>
+              </div>
+              <div class="card-footer py-10 hidden lg:flex flex-col justify-between">
+                <span class="text-2xl font-medium pr-6">
+                  01 <br>JUN <br> | <br> 31 <br> OCT
+                </span>
+                <a href="#" class="hover:opacity-60 text-xl md:block"><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- live -->
+  <section class="live">
+    <div class="container">
+      <h3 class="font-bold text-4xl mb-2 md:mb-6">直播回顧</h3>
+      <div class="live-banner bg-fuild bg-fuild">
+        <div class="live-content py-10 px-6 md:w-7/12 lg:w-5/12 text-white bg-opacity-70 bg-dark">
+          <h4 class="font-bold text-3xl text-center md:text-left mb-8">開幕對談<span
+              class="border-r border-2 border-white opacity-50 mx-3"></span>藝術展演巡禮
+          </h4>
+          <img src="./assets/images/people.png" alt="person_image" class="mb-3">
+          <h5 class="text-2xl mb-2">臺北現代聯合總監｜Ken Hsu</h5>
+          <p class="mb-4">獨家由藝術家、策展人、畫廊總監帶您欣賞台北藝術特展，感受雕塑、展演及當代日常文化之間微妙的關係。</p>
+          <a href="" class="btn bg-secondary text-white px-9">點此觀看</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- recommend -->
+  <section class="recommend py-6 md:py-10 lg:py-15">
+    <div class="container">
+      <h3 class="font-bold text-4xl mb-2 md:mb-6">猜你也喜歡...</h3>
+      <ul class="row lg:justify-end">
+        <li class="col-12 md:col-6 lg:col-4 mb-4 lg:mb-0">
+          <div class="mb-1 h-80 overflow-hidden">
+            <img src="./assets/images/exhibition8.jpg" alt="exhibition_image" class="img-fuild">
+          </div>
+          <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
+          <p class="text-2xl">$350</p>
+        </li>
+        <li class="col-12 md:col-6 lg:col-4 mb-4 lg:mb-0">
+          <div class="mb-1 h-80 overflow-hidden">
+            <img src="./assets/images/exhibition6.jpg" alt="exhibition_image" class="img-fuild">
+          </div>
+          <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
+          <p class="text-2xl">$350</p>
+        </li>
+        <li class="col-12 md:col-6 lg:col-3">
+          <div class="mb-1 h-80 overflow-hidden">
+            <img src="./assets/images/exhibition5.jpg" alt="exhibition_image" class="img-fuild">
+          </div>
+          <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
+          <p class="text-2xl">$350</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- news -->
+  <div class="news flex items-end bg-fuild">
+    <div class="container">
+      <div class="news-content text-white mb-9">
+        <h3 class="text-4xl font-bold mb-4">
+          想收到最新消息嗎？ <br> 快訂閱我們！
+        </h3>
+        <div class="flex items-stretch w-full">
+          <input type="email" name="email" placeholder="輸入您的電子信箱"
+            class="pl-3 rounded-tl rounded-bl flex-grow md:flex-grow-0">
+          <a href="#" class="btn bg-secondary text-white rounded-tl-none rounded-bl-none px-12">訂閱</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

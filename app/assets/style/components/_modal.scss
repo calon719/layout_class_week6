@@ -1,0 +1,27 @@
+.modal {
+  @apply fixed top-0 left-0 w-full h-full z-40;
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-fade {
+  @apply hidden;
+}
+.modal-dialog {
+  @apply rounded-sm relative mx-auto my-16 p-8 bg-white overflow-y-auto w-120;
+  max-height: 80vh;
+}
+.modal-header {
+  @apply pb-4;
+}
+.modal-body {
+  @apply py-4;
+}
+.modal-footer {
+  @apply pt-4 text-right;
+  button:not(:last-child) {
+    @apply mr-2;
+  }
+}
+.modal-btn-close {
+  @apply absolute block top-6 right-8 z-50 w-6 h-6 bg-no-repeat bg-cover bg-center opacity-50 hover:opacity-75;
+  background-image: url("./../images/times-solid.svg");
+}
