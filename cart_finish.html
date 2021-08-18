@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    <%- title %>
+    六角藝術展覽購票網
   </title>
   <link rel="stylesheet" href="./assets/style/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,40 @@
     </nav>
   </header>
 
-  <%- contents %>
+  
+<main class="cart-finish">
+  <!-- top nav -->
+  <nav class="top-navbar navbar border-b border-gray-600 bg-white sticky">
+    <div class="container justify-center">
+      <ul class="navbar-nav py-3 whitespace-nowrap overflow-x-scroll scrollbar-none">
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">音樂</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">戲劇</a></li>
+        <li class="mr-5"><a href="./design.html" class="nav-link hover:border-secondary">設計</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">藝術</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">美食</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">旅遊</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">電影</a></li>
+        <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">親子</a></li>
+        <li><a href="#" class="nav-link hover:border-secondary">期間限定</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="cart-finish-cotent pt-10 md:pt-24 pb-10 sm:pb-16 md:pb-32 min-h-vh-3/4">
+    <div class="container flex flex-col items-center max-w-xl">
+      <span class="material-icons-outlined text-7xl text-primary mb-3">check_circle</span>
+      <p class="text-primary text-xl mb-6">完成訂購</p>
+      <p class="self-start mb-10">您的展覽憑證代碼為：</p>
+      <p class="text-2xl text-primary mb-12">qr147352</p>
+      <div class="row w-full">
+        <div class="col-6"><a href="./index.html"
+            class="btn w-full border-primary text-primary hover:opacity-100 hover:bg-primary hover:text-white">繼續瀏覽</a>
+        </div>
+        <div class="col-6"><a href="./design.html" class="btn w-full bg-secondary text-white">看展去</a></div>
+      </div>
+    </div>
+  </div>
+</main>
 
     <footer>
       <div class="container py-7 flex">

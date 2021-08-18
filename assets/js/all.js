@@ -1,36 +1,30 @@
+"use strict";
+
 $(document).ready(function () {
   // top nav
-  let headerHeight = $("header.sticky").outerHeight() + "px";
+  var headerHeight = $("header.sticky").outerHeight() + "px";
+  $(".top-navbar").css("top", headerHeight); // offcanvas
 
-  $(".top-navbar").css("top", headerHeight);
-
-  // offcanvas
-  let offcanvas = $(".offcanvas");
-  let offcanvasWidth = offcanvas.outerWidth() + "px";
+  var offcanvas = $(".offcanvas");
+  var offcanvasWidth = offcanvas.outerWidth() + "px";
   $(".offcanvas-right").css("right", "-" + offcanvasWidth);
-
   $(".offcanvas-toggle").click(function (e) {
     e.preventDefault();
-
-    let target = $('.offcanvas[data-offcanvas-toggle="false"]');
-    let status = $(target).attr("data-offcanvas-toggle");
+    var target = $('.offcanvas[data-offcanvas-toggle="false"]');
+    var status = $(target).attr("data-offcanvas-toggle");
 
     if (status === "false") {
-      let modalBackdrop = `<div class="modal modal-fade modal-backdrop opacity-0"></div>`;
-
+      var modalBackdrop = "<div class=\"modal modal-fade modal-backdrop opacity-0\"></div>";
       $("body").append(modalBackdrop);
       $(".modal-backdrop").fadeIn();
       $(".offcanvas-right").css("right", 0);
       $(target).css("visibility", "visible").attr("data-offcanvas-toggle", "true");
     }
   });
-
   $(".offcanvas-closeBtn").click(function (e) {
     e.preventDefault();
-
     offcanvasClose();
   });
-
   $("body").on("click", ".modal-backdrop", function (e) {
     if (!offcanvas.is(e.target) && offcanvas.has(e.target).length === 0) {
       offcanvasClose();
@@ -38,7 +32,7 @@ $(document).ready(function () {
   });
 
   function offcanvasClose() {
-    let status = $(offcanvas).attr("data-offcanvas-toggle");
+    var status = $(offcanvas).attr("data-offcanvas-toggle");
 
     if (status === "true") {
       $(".modal-backdrop").fadeOut().remove();
@@ -47,3 +41,4 @@ $(document).ready(function () {
     }
   }
 });
+//# sourceMappingURL=all.js.map

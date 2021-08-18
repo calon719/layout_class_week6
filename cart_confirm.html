@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    六角藝術展覽購票網
+  </title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="sticky top-0 bg-white z-10">
+    <nav class="navbar py-5 border-b border-gray-600">
+      <div class="container justify-end relative">
+        <a href="/" class="nav-brand text-2xl text-primary absolute position-center">
+          <h1>EXHIBINECTION</h1>
+        </a>
+        <ul class="navbar-nav text-gray-600 hidden md:flex">
+          <li><a href="#" class="nav-link">Sign in</a></li>
+          <li><a href="#" class="nav-link">Sign up</a></li>
+        </ul>
+        <a href="#" class="nav-link text-dark relative offcanvas-toggle">
+          <span class="material-icons align-bottom">
+            confirmation_number
+          </span>
+          <span class="bg-secondary text-white text-xs py-px px-2 rounded-full absolute -top-1.5 right-0.5">3</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  
+<main class="cart-confirm">
+  <div class="container pt-6 pb-10">
+    <div class="row min-h-vh-3/4">
+
+      <!-- product list -->
+      <div class="col-12 lg:col-8 mb-7 md:mb-16">
+        <div class="relative pt-0.5">
+          <div class="bar bg-secondary h-0.5 w-full"></div>
+          <ul class="flex justify-around absolute -top-px w-full text-sm md:text-base">
+            <li class="relative font-medium">
+              <div class="w-2 h-2 rounded-full bg-secondary border border-secondary mx-auto mb-1"></div>
+              確認訂單
+            </li>
+            <li class="relative">
+              <div class="w-2 h-2 rounded-full bg-white border border-secondary mx-auto mb-1"></div>
+              填寫訂購資訊
+            </li>
+            <li class="relative">
+              <div class="w-2 h-2 rounded-full bg-white border border-secondary mx-auto mb-1"></div>
+              填寫付款資訊
+            <li class="relative">
+              <div class="w-2 h-2 rounded-full bg-white border border-secondary mx-auto mb-1"></div>
+              完成訂購
+          </ul>
+        </div>
+        <ul class="mt-13">
+          <li class="card flex border-none bg-white rounded-sm mb-5">
+            <div class="card-header w-40 h-21 p-0 mr-8">
+              <img class="img-fuild" src=" ./assets/images/exhibition1.jpg" alt="product_image">
+            </div>
+            <div class="card-body flex justify-between items-center p-0 flex-grow relative">
+              <div class="card-content">
+                <h4 class="font-bold mb-1">2020 台味設計展</h4>
+                <p class="font-medium mb-1">01 JUN — 31 OCT</p>
+                <div class="flex items-center flex-wrap">
+                  <p class="text-gray-600 mr-1">全票</p>
+                  <span class="text-2xl font-bold mr-12 sm:hidden">1</span>
+                  <p class="text-2xl font-bold sm:hidden">NT$350</p>
+                </div>
+              </div>
+              <p class="font-bold text-2xl hidden sm:inline">NT$350</p>
+              <div class="hidden sm:flex">
+                <button type="button" class="hover:opacity-60 font-bold h-6">
+                  <span class="material-icons-outlined">remove</span>
+                </button>
+                <span class="text-xl font-bold px-3">01</span>
+                <button type="button" class="hover:opacity-60 font-bold h-6">
+                  <span class="material-icons-outlined">add</span>
+                </button>
+              </div>
+              <button type="button" class="hover:opacity-60 hidden md:inline-block">
+                <span class="material-icons-outlined">close</span>
+              </button>
+              <button type="button" class="hover:opacity-60 md:hidden absolute top-0 right-0">
+                <span class="material-icons-outlined">close</span>
+              </button>
+            </div>
+          </li>
+          <li class="card flex border-none bg-white rounded-sm mb-5">
+            <div class="card-header w-40 h-21 p-0 mr-8">
+              <img class="img-fuild" src=" ./assets/images/exhibition2.jpg" alt="product_image">
+            </div>
+            <div class="card-body flex justify-between items-center p-0 flex-grow relative">
+              <div class="card-content">
+                <h4 class="font-bold mb-1">2020 台味設計展</h4>
+                <p class="font-medium mb-1">01 JUN — 31 OCT</p>
+                <div class="flex items-center flex-wrap">
+                  <p class="text-gray-600 mr-1">全票</p>
+                  <span class="text-2xl font-bold mr-12 sm:hidden">1</span>
+                  <p class="text-2xl font-bold sm:hidden">NT$350</p>
+                </div>
+              </div>
+              <p class="font-bold text-2xl hidden sm:inline">NT$350</p>
+              <div class="hidden sm:flex">
+                <button type="button" class="hover:opacity-60 font-bold h-6">
+                  <span class="material-icons-outlined">remove</span>
+                </button>
+                <span class="text-xl font-bold px-3">01</span>
+                <button type="button" class="hover:opacity-60 font-bold h-6">
+                  <span class="material-icons-outlined">add</span>
+                </button>
+              </div>
+              <button type="button" class="hover:opacity-60 hidden md:inline-block">
+                <span class="material-icons-outlined">close</span>
+              </button>
+              <button type="button" class="hover:opacity-60 md:hidden absolute top-0 right-0">
+                <span class="material-icons-outlined">close</span>
+              </button>
+            </div>
+          </li>
+          <li class="card flex border-none bg-white rounded-sm mb-5">
+            <div class="card-header w-40 h-21 p-0 mr-8">
+              <img class="img-fuild" src=" ./assets/images/exhibition3.jpg" alt="product_image">
+            </div>
+            <div class="card-body flex justify-between items-center p-0 flex-grow relative">
+              <div class="card-content">
+                <h4 class="font-bold mb-1">2020 台味設計展</h4>
+                <p class="font-medium mb-1">01 JUN — 31 OCT</p>
+                <div class="flex items-center flex-wrap">
+                  <p class="text-gray-600 mr-1">全票</p>
+                  <span class="text-2xl font-bold mr-12 sm:hidden">1</span>
+                  <p class="text-2xl font-bold sm:hidden">NT$350</p>
+                </div>
+              </div>
+              <p class="font-bold text-2xl hidden sm:inline">NT$350</p>
+              <div class="hidden sm:flex">
+                <button type="button" class="hover:opacity-60 font-bold h-6">
+                  <span class="material-icons-outlined">remove</span>
+                </button>
+                <span class="text-xl font-bold px-3">01</span>
+                <button type="button" class="hover:opacity-60 font-bold h-6">
+                  <span class="material-icons-outlined">add</span>
+                </button>
+              </div>
+              <button type="button" class="hover:opacity-60 hidden md:inline-block">
+                <span class="material-icons-outlined">close</span>
+              </button>
+              <button type="button" class="hover:opacity-60 md:hidden absolute top-0 right-0">
+                <span class="material-icons-outlined">close</span>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- btn -->
+      <div class="col-12 lg:col-4 h-auto lg:h-full mt-auto">
+        <div class="ml-auto w-auto md:w-1/2 lg:w-auto">
+          <div class="flex mb-3">
+            <p class="text-2xl font-bold">小計</p>
+            <p class="ml-auto text-2xl font-bold">NT$1050</p>
+          </div>
+          <a href="./cart_customInfo.html" class="btn bg-secondary text-white text-center w-full">下一步</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+    <footer>
+      <div class="container py-7 flex">
+        <div class="flex items-end flex-wrap mr-auto">
+          <h2 class="text-2xl mr-4">EXHIBINECTION</h2>
+          <span class=" text-base">© 2020. All Rights Reserved.</span>
+        </div>
+        <ul class="navbar-nav text-gray-600 hidden md:flex">
+          <li><a href="#" class="nav-link">Sign in</a></li>
+          <li><a href="#" class="nav-link">Sign up</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- cart offcanvas -->
+    <div class="offcanvas offcanvas-right flex flex-col bg-dark" data-offcanvas-toggle="false">
+      <div class="offcanvas-header">
+        <h3 class="text-white text-2xl md:text-4xl font-bold">Cart List</h3>
+      </div>
+      <ul class="offcanvas-body flex-grow overflow-y-scroll pr-2 md:pr-4 mr-2 md:mr-4">
+        <li class="card flex bg-white rounded-sm relative pt-8 md:pt-7 pb-4 md:pb-6 px-4 md:px-8 mb-2 md:mb-3">
+          <div class="card-header w-30 h-30 p-0">
+            <img class="img-fuild" src=" ./assets/images/exhibition1.jpg" alt="product_image">
+          </div>
+          <div class="card-body py-0 md:pr-13 flex-grow">
+            <h4 class="font-bold mb-1">2020 台味設計展</h4>
+            <p class="font-medium mb-1">01 JUN — 31 OCT</p>
+            <p class="mb-3.5 text-gray-600">全票</p>
+            <p class="font-bold text-2xl">NT$350</p>
+          </div>
+          <div class="card-footer p-0 flex flex-col md:flex-row justify-center items-center">
+            <button type="button" class="hover:opacity-60 font-bold h-6">
+              <span class="material-icons-outlined">remove</span>
+            </button>
+            <span class="text-xl font-bold py-1 md:px-3">01</span>
+            <button type="button" class="hover:opacity-60 font-bold h-6">
+              <span class="material-icons-outlined">add</span>
+            </button>
+          </div>
+          <button type="button" class="absolute top-1 left-1 hover:opacity-60">
+            <span class="material-icons-outlined">close</span>
+          </button>
+        </li>
+        <li class="card flex bg-white rounded-sm relative pt-8 md:pt-7 pb-4 md:pb-6 px-4 md:px-8 mb-2 md:mb-3">
+          <div class="card-header w-30 h-30 p-0">
+            <img class="img-fuild" src=" ./assets/images/exhibition2.jpg" alt="product_image">
+          </div>
+          <div class="card-body py-0 md:pr-13 flex-grow">
+            <h4 class="font-bold mb-1">2020 台味設計展</h4>
+            <p class="font-medium mb-1">01 JUN — 31 OCT</p>
+            <p class="mb-3.5 text-gray-600">全票</p>
+            <p class="font-bold text-2xl">NT$350</p>
+          </div>
+          <div class="card-footer p-0 flex flex-col md:flex-row justify-center items-center">
+            <button type="button" class="hover:opacity-60 font-bold h-6">
+              <span class="material-icons-outlined">remove</span>
+            </button>
+            <span class="text-xl font-bold py-1 md:px-3">01</span>
+            <button type="button" class="hover:opacity-60 font-bold h-6">
+              <span class="material-icons-outlined">add</span>
+            </button>
+          </div>
+          <button type="button" class="absolute top-1 left-1 hover:opacity-60">
+            <span class="material-icons-outlined">close</span>
+          </button>
+        </li>
+        <li class="card flex bg-white rounded-sm relative pt-8 md:pt-7 pb-4 md:pb-6 px-4 md:px-8 mb-2 md:mb-3">
+          <div class="card-header w-30 h-30 p-0">
+            <img class="img-fuild" src=" ./assets/images/exhibition3.jpg" alt="product_image">
+          </div>
+          <div class="card-body py-0 md:pr-13 flex-grow">
+            <h4 class="font-bold mb-1">2020 台味設計展</h4>
+            <p class="font-medium mb-1">01 JUN — 31 OCT</p>
+            <p class="mb-3.5 text-gray-600">全票</p>
+            <p class="font-bold text-2xl">NT$350</p>
+          </div>
+          <div class="card-footer p-0 flex flex-col md:flex-row justify-center items-center">
+            <button type="button" class="hover:opacity-60 font-bold h-6">
+              <span class="material-icons-outlined">remove</span>
+            </button>
+            <span class="text-xl font-bold py-1 md:px-3">01</span>
+            <button type="button" class="hover:opacity-60 font-bold h-6">
+              <span class="material-icons-outlined">add</span>
+            </button>
+          </div>
+          <button type="button" class="absolute top-1 left-1 hover:opacity-60">
+            <span class="material-icons-outlined">close</span>
+          </button>
+        </li>
+      </ul>
+      <div class="offcanvas-footer text-white py-8 px-4 md:px-8 flex justify-between">
+        <p class="text-2xl font-medium">小計<span class="ml-6">NT$1050</span></p>
+        <a href="./cart_confirm.html" class="btn bg-white text-primary border-primary">前往結帳</a>
+      </div>
+      <button type="button"
+        class="offcanvas-closeBtn flex justify-center items-center w-8 h-8 hover:bg-gray-900 rounded-full">
+        <span class="material-icons-outlined text-white text-4xl">close</span>
+      </button>
+    </div>
+
+
+    <script src=" ./assets/js/all.js"></script>
+</body>
+
+</html>
