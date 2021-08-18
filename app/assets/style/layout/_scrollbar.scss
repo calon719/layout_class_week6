@@ -3,10 +3,10 @@
     width: 2px;
   }
   &::-webkit-scrollbar-track {
-    @apply bg-secondary;
+    @apply bg-white;
   }
   &::-webkit-scrollbar-thumb {
-    @apply bg-white;
+    @apply bg-secondary;
   }
   &::-webkit-scrollbar-button {
     @apply bg-dark;
