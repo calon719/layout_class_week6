@@ -16,7 +16,7 @@ $(document).ready(function () {
     let status = $(target).attr("data-offcanvas-toggle");
 
     if (status === "false") {
-      let modalBackdrop = `<div class="modal modal-fade modal-backdrop opacity-0"></div>`;
+      let modalBackdrop = `<div class="modal modal-fade modal-backdrop bg-transparent"></div>`;
 
       $("body").append(modalBackdrop);
       $(".modal-backdrop").fadeIn();
