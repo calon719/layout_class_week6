@@ -39,6 +39,26 @@ $(document).ready(function () {
       $(offcanvas).css("visibility", "hidden").attr("data-offcanvas-toggle", "false");
       $(".offcanvas-right").css("right", "-" + offcanvasWidth);
     }
-  }
+  } //initialize swiper when document ready
+
+
+  var mySwiper = new Swiper(".swiper-container", {
+    // Optional parameters
+    direction: "horizontal",
+    freeMode: true,
+    loop: true,
+    breakpoints: {
+      1: {
+        slidesPerView: 1
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 32
+      }
+    },
+    autoplay: {
+      delay: 2000
+    }
+  });
 });
 //# sourceMappingURL=all.js.map
