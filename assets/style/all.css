@@ -902,7 +902,7 @@ input[type="checkbox"], label {
 }
 
 .offcanvas-right {
-  transition: right 0.3s;
+  transition: all 0.3s;
   max-width: 100%;
 }
 
@@ -996,10 +996,6 @@ input[type="checkbox"], label {
 }
 
 .bottom-0 {
-  bottom: 0px;
-}
-
-.-bottom-0 {
   bottom: 0px;
 }
 
@@ -1528,11 +1524,6 @@ input[type="checkbox"], label {
   background-color: rgba(227, 18, 119, var(--tw-bg-opacity));
 }
 
-.bg-danger {
-  --tw-bg-opacity: 1;
-  background-color: rgba(170, 6, 1, var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
@@ -1560,11 +1551,6 @@ input[type="checkbox"], label {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
-
-.hover\:bg-dark:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-900:hover {
@@ -1596,10 +1582,6 @@ input[type="checkbox"], label {
   padding: 0px;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -1611,11 +1593,6 @@ input[type="checkbox"], label {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .px-2 {
@@ -1651,11 +1628,6 @@ input[type="checkbox"], label {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.px-1\.5 {
-  padding-left: 0.375rem;
-  padding-right: 0.375rem;
 }
 
 .py-0 {
@@ -1844,11 +1816,6 @@ input[type="checkbox"], label {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgba(99, 8, 52, var(--tw-text-opacity));
-}
-
-.text-danger {
-  --tw-text-opacity: 1;
-  color: rgba(170, 6, 1, var(--tw-text-opacity));
 }
 
 .text-white {
