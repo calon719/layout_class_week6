@@ -7,7 +7,7 @@ current: index_exhibition1
 
 <main class="index-exhibition1">
   <!-- top nav -->
-  <nav class="top-navbar navbar border-b border-gray-600 bg-white sticky">
+  <nav class="top-navbar navbar border-b border-gray-600 bg-white sticky z-10">
     <div class="container justify-center">
       <ul class="navbar-nav py-3 whitespace-nowrap overflow-x-scroll scrollbar-none">
         <li class="mr-5"><a href="#" class="nav-link hover:border-secondary">音樂</a></li>
@@ -99,29 +99,31 @@ current: index_exhibition1
   <section class="recommend py-6 md:py-10 lg:py-15">
     <div class="container">
       <h3 class="font-bold text-4xl mb-2 md:mb-6">猜你也喜歡...</h3>
-      <ul class="row lg:justify-end">
-        <li class="col-12 md:col-6 lg:col-4 mb-4 lg:mb-0">
-          <div class="mb-1 h-80 overflow-hidden">
-            <img src="./assets/images/exhibition8.jpg" alt="exhibition_image" class="img-fuild">
-          </div>
-          <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
-          <p class="text-2xl">$350</p>
-        </li>
-        <li class="col-12 md:col-6 lg:col-4 mb-4 lg:mb-0">
-          <div class="mb-1 h-80 overflow-hidden">
-            <img src="./assets/images/exhibition6.jpg" alt="exhibition_image" class="img-fuild">
-          </div>
-          <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
-          <p class="text-2xl">$350</p>
-        </li>
-        <li class="col-12 md:col-6 lg:col-3">
-          <div class="mb-1 h-80 overflow-hidden">
-            <img src="./assets/images/exhibition5.jpg" alt="exhibition_image" class="img-fuild">
-          </div>
-          <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
-          <p class="text-2xl">$350</p>
-        </li>
-      </ul>
+      <div class="swiper-container">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="mb-1 h-80 overflow-hidden">
+              <img src="./assets/images/exhibition8.jpg" alt="exhibition_image" class="img-fuild">
+            </div>
+            <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
+            <p class="text-2xl">$350</p>
+          </li>
+          <li class="swiper-slide">
+            <div class="mb-1 h-80 overflow-hidden">
+              <img src="./assets/images/exhibition6.jpg" alt="exhibition_image" class="img-fuild">
+            </div>
+            <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
+            <p class="text-2xl">$350</p>
+          </li>
+          <li class="swiper-slide">
+            <div class="mb-1 h-80 overflow-hidden">
+              <img src="./assets/images/exhibition5.jpg" alt="exhibition_image" class="img-fuild">
+            </div>
+            <h4 class="text-2xl font-bold mb-1">No.22 線上設計展</h4>
+            <p class="text-2xl">$350</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 </main>
