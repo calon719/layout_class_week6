@@ -76,6 +76,9 @@ module.exports = {
       minHeight: {
         "vh-3/4": "75vh",
       },
+      margin: {
+        "1/12": "8.333333%",
+      },
     },
   },
   variants: {
