@@ -42,7 +42,7 @@ $(document).ready(function () {
   } //initialize swiper when document ready
 
 
-  var mySwiper = new Swiper(".swiper-container", {
+  var mySwiper = new Swiper(".swiper", {
     // Optional parameters
     direction: "horizontal",
     freeMode: true,
